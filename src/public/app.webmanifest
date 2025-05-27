@@ -1,0 +1,90 @@
+{
+    "id": "/#/",
+    "start_url": "/#/",
+    "scope": "/",
+    "name": "TUY'S App",
+    "short_name": "TUY'S",
+    "description": "Aplikasi yang menyediakan wadah bagi para pengguna yang ingin membagikan ataupun membuat cerita.",
+    "display": "standalone",
+    "background_color": "#FFFFFF",
+    "theme_color": "#3b82f6",
+    "icons": [
+        {
+            "src": "images/logo-app/logo-x144.png",
+            "type": "image/png",
+            "sizes": "144x144",
+            "purpose": "any"
+        },
+        {
+            "src": "images/logo-app/maskable-logo-x48.png",
+            "type": "image/png",
+            "sizes": "48x48",
+            "purpose": "maskable"
+        },
+        {
+            "src": "images/logo-app/maskable-logo-x96.png",
+            "type": "image/png",
+            "sizes": "96x96",
+            "purpose": "maskable"
+        },
+        {
+            "src": "images/logo-app/maskable-logo-x192.png",
+            "type": "image/png",
+            "sizes": "192x192",
+            "purpose": "maskable"
+        },
+        {
+            "src": "images/logo-app/maskable-logo-x384.png",
+            "type": "image/png",
+            "sizes": "384x384",
+            "purpose": "maskable"
+        },
+        {
+            "src": "images/logo-app/maskable-logo-x468.png",
+            "type": "image/png",
+            "sizes": "468x468",
+            "purpose": "maskable"
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "images/screenshots/storyss.png",
+            "sizes": "1420x825",
+            "type": "image/png",
+            "form_factor": "wide"
+        },
+        {
+            "src": "images/screenshots/storyss2.png",
+            "sizes": "1420x825",
+            "type": "image/png",
+            "form_factor": "wide"
+        },
+        {
+            "src": "images/screenshots/storyss3.png",
+            "sizes": "1420x825",
+            "type": "image/png",
+            "form_factor": "wide"
+        },
+        {
+            "src": "images/screenshots/storyss4.png",
+            "sizes": "482x696",
+            "type": "image/png",
+            "form_factor": "narrow"
+        }
+    ],
+    "shortcuts": [
+        {
+            "name": "Buat Cerita",
+            "short_name": "Buat",
+            "description": "Membuat cerita baru.",
+            "url": "/?source=pwa#/new",
+            "icons": [
+                {
+                    "src": "images/logo-app/plus-x512.png",
+                    "type": "image/png",
+                    "sizes": "512x512"
+                }
+            ]
+        }
+    ]
+}
